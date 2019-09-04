@@ -20,4 +20,5 @@ def reduce (array, starting_point=0)
   end 
   while i < array.length
   accum = yield(accum, array[i])
-  
+  i += 1 
+end 

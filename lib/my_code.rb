@@ -8,3 +8,7 @@ def map (array)
   end 
   second
 end 
+
+def reduce (array, starting point=0)
+  i = 0 
+  

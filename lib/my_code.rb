@@ -15,7 +15,7 @@ def reduce (array, starting_point=0)
     accum = starting_point
     i = 0 
   else
-    accum = starting_point[0]
+    accum = array[0]
     i = 1 
   end 
   while i < array.length

@@ -18,4 +18,4 @@ def reduce (array, starting_point=0)
     accum = starting_point[0]
     i = 1 
   end 
-  while i < 
+  while i < array.length

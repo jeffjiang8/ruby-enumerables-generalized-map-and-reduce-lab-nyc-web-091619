@@ -1,4 +1,3 @@
 # Your Code Here
-map(array){
-  |i| -1 * i
-}
+def map (array)
+  i = 0 

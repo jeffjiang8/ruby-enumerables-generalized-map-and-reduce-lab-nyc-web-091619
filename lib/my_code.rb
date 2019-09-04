@@ -14,4 +14,6 @@ def reduce (array, starting_point=0)
   if starting_point
     accum = starting_point
     i = 0 
-  else starting_point = 
+  else
+    accum = starting_point[0]
+    

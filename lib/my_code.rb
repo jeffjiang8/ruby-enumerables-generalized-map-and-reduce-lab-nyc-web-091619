@@ -9,7 +9,7 @@ def map (array)
   second
 end 
 
-def reduce (array, starting_point=0)
+def reduce (array, starting_point=nil)
   i = 0 
   if starting_point
     accum = starting_point

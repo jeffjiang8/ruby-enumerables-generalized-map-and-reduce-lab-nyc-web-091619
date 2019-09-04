@@ -17,4 +17,5 @@ def reduce (array, starting_point=0)
   else
     accum = starting_point[0]
     i = 1 
-  else
+  end 
+  while
